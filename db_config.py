@@ -4,7 +4,7 @@ import mysql.connector
 def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
-        port=3306,
+        port=8501,
         user="root",
         password="",  # Ganti sesuai dengan konfigurasi Anda
         database="db_penilangan"
